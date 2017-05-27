@@ -1,0 +1,68 @@
+{
+
+    "milkBottle": [
+
+        {
+            "density": 2, "friction": 1, "bounce": 1,
+            "filter": { "categoryBits": 1, "maskBits": 65535 },
+            "shape": [   0, 30  ,  4, 17  ,  11, 11  ,  17, 11  ,  27, 21  ,  27, 70  ,  2, 70  ]
+        } ,
+        {
+            "density": 2, "friction": 0, "bounce": 0,
+            "filter": { "categoryBits": 1, "maskBits": 65535 },
+            "shape": [   17, 11  ,  11, 11  ,  11, 1  ,  16, 0  ]
+        }
+    ]
+    ,
+    "duck": [
+
+        {
+            "density": 2, "friction": 0, "bounce": 0,
+            "filter": { "categoryBits": 1, "maskBits": 65535 },
+            "shape": [   48, 0  ,  59, 13  ,  57, 27  ,  46, 70  ,  30, 31  ,  27, 7  ]
+        } ,
+        {
+            "density": 2, "friction": 0, "bounce": 0,
+            "filter": { "categoryBits": 1, "maskBits": 65535 },
+            "shape": [   70, 22  ,  57, 27  ,  59, 13  ,  70, 14  ]
+        } ,
+        {
+            "density": 2, "friction": 0, "bounce": 0,
+            "filter": { "categoryBits": 1, "maskBits": 65535 },
+            "shape": [   46, 70  ,  57, 27  ,  64, 54  ]
+        } ,
+        {
+            "density": 2, "friction": 0, "bounce": 0,
+            "filter": { "categoryBits": 1, "maskBits": 65535 },
+            "shape": [   28, 70  ,  6, 56  ,  1, 30  ,  8, 26  ,  30, 31  ,  46, 70  ]
+        }
+    ]
+    ,
+    "car": [
+
+        {
+            "density": 2, "friction": 0, "bounce": 0,
+            "filter": { "categoryBits": 1, "maskBits": 65535 },
+            "shape": [   0, 11  ,  8, 9  ,  16, 19  ,  7, 26  ]
+        } ,
+        {
+            "density": 2, "friction": 0, "bounce": 0,
+            "filter": { "categoryBits": 1, "maskBits": 65535 },
+            "shape": [   16, 19  ,  8, 9  ,  8, 0  ,  27, 0  ,  35, 19  ,  24, 26  ]
+        }
+    ]
+    ,
+    "elephant": [
+
+        {
+            "density": 2, "friction": 0, "bounce": 0,
+            "filter": { "categoryBits": 1, "maskBits": 65535 },
+            "shape": [   19, 29  ,  38, 27  ,  53, 80  ,  3, 80  ]
+        } ,
+        {
+            "density": 2, "friction": 0, "bounce": 0,
+            "filter": { "categoryBits": 1, "maskBits": 65535 },
+            "shape": [   38, 27  ,  19, 29  ,  2, 25  ,  0, 8  ,  30, 0  ,  52, 7  ,  54, 23  ]
+        }
+    ]
+}

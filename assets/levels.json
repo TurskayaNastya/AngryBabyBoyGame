@@ -1,0 +1,903 @@
+{
+  "gameSettings": {
+    "canvasWidth": "800",
+    "canvasHeight": "600",
+    "worldWidth": "1200",
+    "worldHeight": "570",
+    "gravity": "300"
+  },
+  "ballSettings": {
+    "startPos": {
+      "x": "190",
+      "y": "495"
+    },
+    "radius": "19",
+    "mass": "4"
+  },
+  "levels": [
+    {
+      "bullets":"4",
+      "locationBg":"roomBg",
+      "things": [
+        {
+          "asset": "greenBox",
+          "type": "box",
+          "startPos": {
+            "x": "756",
+            "y": "460"
+          },
+          "width": "110",
+          "height": "70",
+          "mass":"7"
+        },
+        {
+          "asset": "purpleBox",
+          "type": "box",
+          "startPos": {
+            "x": "756",
+            "y": "530"
+          },
+          "width": "110",
+          "height": "70",
+          "mass":"7"
+        },
+        {
+          "asset": "yellowBox",
+          "type": "box",
+          "startPos": {
+            "x": "756",
+            "y": "390"
+          },
+          "width": "110",
+          "height": "70",
+          "mass":"7"
+        },
+        {
+          "asset": "milkBottle",
+          "type": "aim",
+          "startPos": {
+            "x": "756",
+            "y": "320"
+          },
+          "width": "29",
+          "height": "70",
+          "scorePoints": "10",
+          "mass":"5"
+        }
+      ]
+    },
+    {
+      "bullets":"4",
+      "locationBg":"roomBg",
+      "things": [
+        {
+          "asset": "greenBox",
+          "type": "box",
+          "startPos": {
+            "x": "806",
+            "y": "470"
+          },
+          "width": "92",
+          "height": "60",
+          "mass":"7"
+        },
+        {
+          "asset": "greenBox",
+          "type": "box",
+          "startPos": {
+            "x": "806",
+            "y": "372"
+          },
+          "width": "57",
+          "height": "38",
+          "mass":"3"
+        },
+        {
+          "asset": "purpleBox",
+          "type": "box",
+          "startPos": {
+            "x": "806",
+            "y": "530"
+          },
+          "width": "110",
+          "height": "70",
+          "mass":"7"
+        },
+        {
+          "asset": "yellowBox",
+          "type": "box",
+          "startPos": {
+            "x": "607",
+            "y": "410"
+          },
+          "width": "82",
+          "height": "54",
+          "mass":"7"
+        },
+        {"type": "rope",
+        "anchorPos": {
+          "x": "600",
+          "y": "50"
+        },
+        "length": "30",
+        "toy": "toy",
+        "toyPos": {
+          "x": "600",
+          "y": "50"
+        }
+        },
+        {
+          "asset": "milkBottle",
+          "type": "aim",
+          "startPos": {
+            "x": "706",
+            "y": "540"
+          },
+          "width": "29",
+          "height": "70",
+          "mass":"5",
+          "scorePoints": "15"
+        },
+        {
+          "asset": "purpleBox",
+          "type": "box",
+          "startPos": {
+            "x": "611",
+            "y": "530"
+          },
+          "width": "110",
+          "height": "70",
+          "mass":"7"
+        },
+        {
+          "asset": "yellowBox",
+          "type": "box",
+          "startPos": {
+            "x": "609",
+            "y": "479"
+          },
+          "width": "77",
+          "height": "51",
+          "mass":"7"
+        }
+      ]
+    },
+    {
+      "bullets":"4",
+      "locationBg":"roomBg",
+      "things": [
+        {
+          "asset": "greenBox",
+          "type": "box",
+          "startPos": {
+            "x": "776",
+            "y": "470"
+          },
+          "width": "92",
+          "height": "60",
+          "mass":"7"
+        },
+        {
+          "asset": "purpleBox",
+          "type": "box",
+          "startPos": {
+            "x": "776",
+            "y": "530"
+          },
+          "width": "110",
+          "height": "70",
+          "mass":"7"
+        },
+        {
+          "asset": "purpleBox",
+          "type": "box",
+          "startPos": {
+            "x": "776",
+            "y": "381"
+          },
+          "width": "57",
+          "height": "38",
+          "mass":"7"
+        },
+        {
+          "asset": "yellowBox",
+          "type": "box",
+          "startPos": {
+            "x": "776",
+            "y": "419"
+          },
+          "width": "77",
+          "height": "51",
+          "mass":"7"
+        },
+        {
+          "asset": "milkBottle",
+          "type": "aim",
+          "startPos": {
+            "x": "776",
+            "y": "321"
+          },
+          "width": "29",
+          "height": "70",
+          "scorePoints": "10",
+          "mass":"5"
+        },
+        {
+          "asset": "greenBox",
+          "type": "box",
+          "startPos": {
+            "x": "666",
+            "y": "530"
+          },
+          "width": "110",
+          "height": "70",
+          "mass":"7"
+        },
+        {
+          "asset": "yellowBox",
+          "type": "box",
+          "startPos": {
+            "x": "666",
+            "y": "470"
+          },
+          "width": "92",
+          "height": "60",
+          "mass":"7"
+        },
+        {
+          "asset": "duck",
+          "type": "aim",
+          "startPos": {
+            "x": "666",
+            "y": "400"
+          },
+          "width": "70",
+          "height": "70",
+          "scorePoints": "10",
+          "mass":"5"
+        },
+        {
+          "asset": "yellowBox",
+          "type": "box",
+          "startPos": {
+            "x": "560",
+            "y": "546"
+          },
+          "width": "82",
+          "height": "54",
+          "mass":"7"
+        }
+      ]
+    },
+    {
+      "bullets":"4",
+      "locationBg":"roomBg",
+      "things": [
+        {
+          "asset": "greenBox",
+          "type": "box",
+          "startPos": {
+            "x": "511",
+            "y": "470"
+          },
+          "width": "92",
+          "height": "60",
+          "mass":"7"
+        },
+        {
+          "asset": "purpleBox",
+          "type": "box",
+          "startPos": {
+            "x": "511",
+            "y": "530"
+          },
+          "width": "110",
+          "height": "70",
+          "mass":"7"
+        },
+        {
+          "asset": "yellowBox",
+          "type": "box",
+          "startPos": {
+            "x": "511",
+            "y": "410"
+          },
+          "width": "82",
+          "height": "54",
+          "mass":"7"
+        },
+        {
+          "asset": "milkBottle",
+          "type": "aim",
+          "startPos": {
+            "x": "511",
+            "y": "350"
+          },
+          "width": "29",
+          "height": "70",
+          "mass":"5",
+          "scorePoints": "15"
+        },
+        {
+          "asset": "milkBottle",
+          "type": "aim",
+          "startPos": {
+            "x": "706",
+            "y": "406"
+          },
+          "width": "29",
+          "height": "70",
+          "mass":"5",
+          "scorePoints": "15"
+        },
+        {
+          "asset": "duck",
+          "type": "aim",
+          "startPos": {
+            "x": "611",
+            "y": "530"
+          },
+          "width": "70",
+          "height": "70",
+          "mass":"5",
+          "scorePoints": "15"
+        },
+        {
+          "asset": "greenBox",
+          "type": "box",
+          "startPos": {
+            "x": "706",
+            "y": "530"
+          },
+          "width": "92",
+          "height": "60",
+          "mass":"7"
+        },
+        {
+          "asset": "yellowBox",
+          "type": "box",
+          "startPos": {
+            "x": "706",
+            "y": "476"
+          },
+          "width": "82",
+          "height": "54",
+          "mass":"7"
+        }
+      ]
+    },
+    {
+      "bullets":"4",
+      "locationBg":"roomBg",
+      "things": [
+        {
+          "asset": "greenBox",
+          "type": "box",
+          "startPos": {
+            "x": "511",
+            "y": "405"
+          },
+          "width": "141",
+          "height": "92",
+          "mass":"8"
+        },
+        {
+          "asset": "purpleBox",
+          "type": "box",
+          "startPos": {
+            "x": "511",
+            "y": "510"
+          },
+          "width": "183",
+          "height": "120",
+          "mass":"10"
+        },
+        {
+          "asset": "yellowBox",
+          "type": "box",
+          "startPos": {
+            "x": "511",
+            "y": "320"
+          },
+          "width": "120",
+          "height": "80",
+          "mass":"7"
+        },
+        {
+          "asset": "milkBottle",
+          "type": "aim",
+          "startPos": {
+            "x": "511",
+            "y": "244"
+          },
+          "width": "29",
+          "height": "70",
+          "mass":"5",
+          "scorePoints": "15"
+        },
+        {
+          "asset": "duck",
+          "type": "aim",
+          "startPos": {
+            "x": "681",
+            "y": "530"
+          },
+          "width": "70",
+          "height": "70",
+          "mass":"5",
+          "scorePoints": "15"
+        }
+      ]
+    },
+    {
+      "bullets":"4",
+      "locationBg":"roomBg",
+      "things": [
+        {
+          "asset": "greenBox",
+          "type": "box",
+          "startPos": {
+            "x": "595",
+            "y": "527"
+          },
+          "width": "111",
+          "height": "73",
+          "mass":"7"
+        },
+        {
+          "asset": "purpleBox",
+          "type": "box",
+          "startPos": {
+            "x": "706",
+            "y": "527"
+          },
+          "width": "111",
+          "height": "73",
+          "mass":"7"
+        },
+        {
+          "asset": "yellowBox",
+          "type": "box",
+          "startPos": {
+            "x": "580",
+            "y": "483"
+          },
+          "width": "67",
+          "height": "44",
+          "mass":"7"
+        },
+        {
+          "asset": "yellowBox",
+          "type": "box",
+          "startPos": {
+            "x": "691",
+            "y": "483"
+          },
+          "width": "67",
+          "height": "44",
+          "mass":"7"
+        },
+        {
+          "asset": "greenBox",
+          "type": "box",
+          "startPos": {
+            "x": "580",
+            "y": "439"
+          },
+          "width": "67",
+          "height": "44",
+          "mass":"7"
+        },
+        {
+          "asset": "greenBox",
+          "type": "box",
+          "startPos": {
+            "x": "691",
+            "y": "439"
+          },
+          "width": "67",
+          "height": "44",
+          "mass":"7"
+        },
+        {
+          "asset": "milkBottle",
+          "type": "aim",
+          "startPos": {
+            "x": "631",
+            "y": "457"
+          },
+          "width": "29",
+          "height": "70",
+          "mass":"7",
+          "scorePoints": "10"
+        },
+        {
+          "asset": "milkBottle",
+          "type": "aim",
+          "startPos": {
+            "x": "750",
+            "y": "457"
+          },
+          "width": "29",
+          "height": "70",
+          "mass":"7",
+          "scorePoints": "10"
+        },
+        {
+          "asset": "purpleBox",
+          "type": "box",
+          "startPos": {
+            "x": "630",
+            "y": "385"
+          },
+          "width": "82",
+          "height": "54",
+          "mass":"7"
+        },
+        {
+          "asset": "car",
+          "type": "aim",
+          "startPos": {
+            "x": "630",
+            "y": "350"
+          },
+          "width": "35",
+          "height": "26",
+          "mass":"5",
+          "scorePoints": "15"
+        },
+        {
+          "asset": "car",
+          "type": "aim",
+          "startPos": {
+            "x": "691",
+            "y": "404"
+          },
+          "width": "35",
+          "height": "26",
+          "mass":"5",
+          "scorePoints": "15"
+        }
+      ]
+    },
+    {
+      "bullets":"4",
+      "locationBg":"roomBg",
+      "things": [
+        {
+          "asset": "greenBox",
+          "type": "box",
+          "startPos": {
+            "x": "509",
+            "y": "527"
+          },
+          "width": "111",
+          "height": "73",
+          "mass":"10"
+        },
+        {
+          "asset": "purpleBox",
+          "type": "box",
+          "startPos": {
+            "x": "706",
+            "y": "527"
+          },
+          "width": "111",
+          "height": "73",
+          "mass":"10"
+        },
+        {
+          "asset": "yellowBox",
+          "type": "box",
+          "startPos": {
+            "x": "544",
+            "y": "465"
+          },
+          "width": "82",
+          "height": "54",
+          "mass":"8"
+        },
+        {
+          "asset": "yellowBox",
+          "type": "box",
+          "startPos": {
+            "x": "672",
+            "y": "465"
+          },
+          "width": "82",
+          "height": "54",
+          "mass":"8"
+        },
+        {
+          "asset": "purpleBox",
+          "type": "box",
+          "startPos": {
+            "x": "566",
+            "y": "417"
+          },
+          "width": "67",
+          "height": "44",
+          "mass":"3"
+        },
+        {
+          "asset": "purpleBox",
+          "type": "box",
+          "startPos": {
+            "x": "654",
+            "y": "417"
+          },
+          "width": "67",
+          "height": "44",
+          "mass":"3"
+        },
+        {
+          "asset": "yellowBox",
+          "type": "box",
+          "startPos": {
+            "x": "615",
+            "y": "372"
+          },
+          "width": "63",
+          "height": "41",
+          "mass":"3"
+        },
+        {
+          "asset": "milkBottle",
+          "type": "aim",
+          "startPos": {
+            "x": "586",
+            "y": "530"
+          },
+          "width": "29",
+          "height": "70",
+          "mass":"7",
+          "scorePoints": "15"
+        },
+        {
+          "asset": "car",
+          "type": "aim",
+          "startPos": {
+            "x": "514",
+            "y": "421"
+          },
+          "width": "35",
+          "height": "26",
+          "mass":"5",
+          "scorePoints": "10"
+        },
+        {
+          "asset": "car",
+          "type": "aim",
+          "startPos": {
+            "x": "561",
+            "y": "376"
+          },
+          "width": "35",
+          "height": "26",
+          "mass":"5",
+          "scorePoints": "10"
+        },
+        {
+          "asset": "car",
+          "type": "aim",
+          "startPos": {
+            "x": "609",
+            "y": "332"
+          },
+          "width": "35",
+          "height": "26",
+          "mass":"5",
+          "scorePoints": "15"
+        },
+        {
+          "asset": "car",
+          "type": "aim",
+          "startPos": {
+            "x": "625",
+            "y": "550"
+          },
+          "width": "35",
+          "height": "26",
+          "mass":"5",
+          "scorePoints": "15"
+        },
+        {
+          "asset": "elephant",
+          "type": "aim",
+          "startPos": {
+            "x": "740",
+            "y": "450"
+          },
+          "width": "54",
+          "height": "80",
+          "mass":"5",
+          "scorePoints": "20"
+        }
+      ]
+    },
+    {
+      "bullets":"4",
+      "locationBg":"secondRoom",
+      "things": [
+        {
+          "asset": "rack",
+          "type": "box",
+          "startPos": {
+            "x": "658",
+            "y": "490"
+          },
+          "width": "302",
+          "height": "158",
+          "mass":"200"
+        },
+        {
+          "asset": "greenBox",
+          "type": "box",
+          "startPos": {
+            "x": "557",
+            "y": "383"
+          },
+          "width": "83",
+          "height": "54",
+          "mass":"5"
+        },
+        {
+          "asset": "purpleBox",
+          "type": "box",
+          "startPos": {
+            "x": "743",
+            "y": "368"
+          },
+          "width": "125",
+          "height": "82",
+          "mass":"8"
+        },
+        {
+          "asset": "car",
+          "type": "aim",
+          "startPos": {
+            "x": "547",
+            "y": "337"
+          },
+          "width": "35",
+          "height": "26",
+          "mass":"5",
+          "scorePoints": "10"
+        },
+        {
+          "asset": "milkBottle",
+          "type": "aim",
+          "startPos": {
+            "x": "752",
+            "y": "292"
+          },
+          "width": "29",
+          "height": "70",
+          "mass":"7",
+          "scorePoints": "15"
+        },
+        {
+          "asset": "duck",
+          "type": "aim",
+          "startPos": {
+            "x": "643",
+            "y": "380"
+          },
+          "width": "70",
+          "height": "70",
+          "mass":"7",
+          "scorePoints": "15"
+        }
+      ]
+    },
+    {
+      "bullets":"4",
+      "locationBg":"secondRoom",
+      "things": [
+        {
+          "asset": "rack",
+          "type": "box",
+          "startPos": {
+            "x": "658",
+            "y": "490"
+          },
+          "width": "302",
+          "height": "158",
+          "mass":"200"
+        },
+        {
+          "asset": "greenBox",
+          "type": "box",
+          "startPos": {
+            "x": "688",
+            "y": "359"
+          },
+          "width": "160",
+          "height": "105",
+          "mass":"45"
+        },
+        {
+          "asset": "purpleBox",
+          "type": "box",
+          "startPos": {
+            "x": "637",
+            "y": "286"
+          },
+          "width": "59",
+          "height": "39",
+          "mass":"5"
+        },
+        {
+          "asset": "greenBox",
+          "type": "box",
+          "startPos": {
+            "x": "637",
+            "y": "251"
+          },
+          "width": "59",
+          "height": "39",
+          "mass":"5"
+        },
+        {
+          "asset": "yellowBox",
+          "type": "box",
+          "startPos": {
+            "x": "741",
+            "y": "286"
+          },
+          "width": "59",
+          "height": "39",
+          "mass":"5"
+        },
+        {
+          "asset": "car",
+          "type": "aim",
+          "startPos": {
+            "x": "637",
+            "y": "212"
+          },
+          "width": "35",
+          "height": "26",
+          "mass":"5",
+          "scorePoints": "10"
+        },
+        {
+          "asset": "car",
+          "type": "aim",
+          "startPos": {
+            "x": "743",
+            "y": "252"
+          },
+          "width": "35",
+          "height": "26",
+          "mass":"5",
+          "scorePoints": "10"
+        },
+        {
+          "asset": "milkBottle",
+          "type": "aim",
+          "startPos": {
+            "x": "691",
+            "y": "272"
+          },
+          "width": "29",
+          "height": "70",
+          "mass":"7",
+          "scorePoints": "15"
+        },
+        {
+          "asset": "duck",
+          "type": "aim",
+          "startPos": {
+            "x": "563",
+            "y": "382"
+          },
+          "width": "70",
+          "height": "70",
+          "mass":"7",
+          "scorePoints": "15"
+        }
+      ]
+    }
+  ]
+}
